@@ -87,9 +87,9 @@ hysteria2部署脚本中邮箱要填写自己的！！！
 ## 订阅连接 
 数量多的可以自己将上面的 url 集中到一个文件中，然后通过这个文件来订阅。
 
-譬如： 我将这些 url 放到 sub.txt 文件中,然后将这个文件放到 ~/domains/<user>.serv00.net/public_html/ 目录下。
+譬如： 我将这些 url 放到 sub.txt 文件中,然后将这个文件放到 ~/domains/\<user>.serv00.net/public_html/ 目录下。
 
-订阅连接就是： https://<user>.serv00.net/sub.txt 
+订阅连接就是： https://\<user>.serv00.net/sub.txt 
 
 这个订阅链接直接用于v2rayN 中。如果需要使用sing-box 需要转换订阅地址。注意有些订阅链接会外泄！
 
@@ -108,14 +108,14 @@ $ pip install -r .\requirements.txt
 
 复制生成的config.json 然后改个名xxx,再上传到sub.txt 所在路径
 
-sing-box 订阅：订阅连接就是： https://<user>.serv00.net/xxx
+sing-box 订阅：订阅连接就是： https://\<user>.serv00.net/xxx
 
 
 
 自己操作这里不提供订阅链接。 操作很简单的事情。这文档我将实现的思路都给出来了。
 
 
-## 排查问题是使用到的命令
+## 排查问题使用到的命令
 ```shell
 crontab -l    # 查看计划任务是否已经设置成功
 
