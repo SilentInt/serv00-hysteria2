@@ -97,7 +97,7 @@ hysteria_download() {
         return 1
     else
         green "download hysteria!"
-        wget -q -P $HYSTERIA_WORKDIR https://github.com/apernet/hysteria/releases/download/app%2Fv2.5.1/hysteria-freebsd-amd64 2>&1 > /dev/null 
+        wget -q -P $HYSTERIA_WORKDIR https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.0/hysteria-freebsd-amd64 2>&1 > /dev/null 
         mv $HYSTERIA_WORKDIR/hysteria-freebsd-amd64 $HYSTERIA_WORKDIR/hysteria
         chmod u+x $HYSTERIA_WORKDIR/hysteria
     fi
